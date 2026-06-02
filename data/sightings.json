@@ -248,5 +248,36 @@
     ],
     "confidence": "high",
     "notes": "Primary-source product/customer signal; market read is NVDA AI-PC narrative plus Windows/OEM ecosystem attention."
+  },
+  {
+    "date_utc": "2026-05-31T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-dsx-gives-infrastructure-builders-the-playbook-for-ai-factories",
+    "title": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
+    "summary": "NVIDIA announced DSX as a design, simulation and operations platform for AI factories, tying compute, networking, energy, power and cooling signals into infrastructure workflows.",
+    "signal_type": "supply-chain/platform",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "CRWV",
+      "IREN",
+      "NBIS",
+      "Nscale",
+      "Yotta Data Services",
+      "DELL",
+      "HPE",
+      "SMCI",
+      "LNVGY",
+      "Foxconn",
+      "QCT",
+      "Wistron",
+      "Wiwynn",
+      "CDNS",
+      "Siemens",
+      "PTC"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 AI-factory infrastructure/supply-chain signal. Supply-chain overlay: downstream cloud partners CoreWeave/Crusoe/Firmus/IREN/Lambda/Nebius/Nscale/Yotta; midstream Dell/HPE/Lenovo/Supermicro and Taiwan ODMs; facilities/power/cooling via DSX OS, DSX Sim, DSX Flex and DSX Exchange. Confirmation attempt: NVIDIA DSX product page and GTC Taipei MGX/800 VDC live-blog section."
   }
 ]
