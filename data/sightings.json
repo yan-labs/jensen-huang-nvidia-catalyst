@@ -1,0 +1,26 @@
+[
+  {
+    "date_utc": "2026-06-01T01:00:00Z",
+    "source": "NVIDIA GTC",
+    "url": "https://www.nvidia.com/gtc/keynote/?nvid=nv-int-bnr-839023",
+    "title": "NVIDIA GTC 2026 Keynote",
+    "summary": "Official replay page for Jensen Huang's GTC keynote covering AI factories, open models, agentic systems, physical AI, and robotics.",
+    "signal_type": "event",
+    "primary_assets": ["NVDA"],
+    "secondary_assets": ["AI infrastructure", "robotics", "physical AI"],
+    "confidence": "high",
+    "notes": "S-tier primary source; use as anchor for June 2026 Computex/GTC Taipei catalyst cluster."
+  },
+  {
+    "date_utc": "2026-05-31T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+    "title": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
+    "summary": "NVIDIA and Microsoft announced RTX Spark Windows PCs for personal AI agents, with Jensen Huang framing RTX Spark as the new personal AI computer.",
+    "signal_type": "product",
+    "primary_assets": ["NVDA"],
+    "secondary_assets": ["MSFT", "ARM", "DELL", "HPQ", "MediaTek", "Windows PC OEMs"],
+    "confidence": "high",
+    "notes": "Primary-source product/customer signal; market read is NVDA AI-PC narrative plus Windows/OEM ecosystem attention."
+  }
+]

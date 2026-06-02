@@ -1,0 +1,5 @@
+interface:
+  display_name: "Jensen Huang Catalyst"
+  short_description: "Track Jensen/NVIDIA public signals for NVDA and AI-infrastructure catalysts"
+  default_prompt: "Track the latest Jensen Huang / NVIDIA public dynamics and classify market-relevant signals."
+

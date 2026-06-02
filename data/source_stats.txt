@@ -1,0 +1,6 @@
+Total sightings: 2
+Market-relevant sightings: 2
+
+source  count  last_seen
+NVIDIA GTC  1  2026-06-01T01:00:00Z
+NVIDIA Newsroom  1  2026-05-31T00:00:00Z

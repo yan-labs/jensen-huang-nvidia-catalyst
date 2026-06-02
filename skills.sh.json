@@ -1,0 +1,12 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Markets / AI Infrastructure",
+      "description": "Jensen Huang / NVIDIA public-dynamics catalyst lens for NVDA, AI infrastructure, semiconductors, data-center supply chain, and related US stocks. Decision-support only.",
+      "skills": ["jensen-huang-nvidia-catalyst"]
+    }
+  ]
+}
+
