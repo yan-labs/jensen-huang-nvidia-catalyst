@@ -214,8 +214,8 @@
     "source": "NVIDIA Blog",
     "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
     "title": "NVIDIA GTC Taipei at COMPUTEX Live Updates on What Is Next in AI",
-    "summary": "NVIDIA's GTC Taipei live blog highlighted Vera Rubin full production, 800 VDC/MGX power architecture, liquid-cooled rack design, Spectrum-X Ethernet Photonics production and Taiwan supply-chain scale.",
-    "signal_type": "supply-chain",
+    "summary": "NVIDIA's GTC Taipei live blog highlighted Vera Rubin full production, 800 VDC/MGX power architecture, liquid-cooled rack design, Spectrum-X Ethernet Photonics production, Taiwan supply-chain scale, and Jensen's H2 2026 roadmap hint around Grace Blackwell, Vera Rubin and an undisclosed surprise product.",
+    "signal_type": "supply-chain/product-roadmap",
     "primary_assets": [
       "NVDA"
     ],
@@ -223,10 +223,12 @@
       "AI factory suppliers",
       "power and cooling",
       "networking",
-      "Taiwan ODMs"
+      "Taiwan ODMs",
+      "TSMC",
+      "Quanta/QCT"
     ],
     "confidence": "high",
-    "notes": "Mandatory supply-chain overlay source. Confirms upstream-to-downstream AI factory stack, 150 Taiwan partners, 350+ factories and 30 countries, plus power/cooling constraints via MGX/800 VDC/liquid cooling."
+    "notes": "Mandatory supply-chain overlay source. Confirms upstream-to-downstream AI factory stack, 150 Taiwan partners, 350+ factories and 30 countries, plus power/cooling constraints via MGX/800 VDC/liquid cooling. Also records Jensen quote that H2 2026 will be busy with Grace Blackwell, Vera Rubin and an undisclosed surprise product; Chinese/Taiwan reports confirm the capacity-expansion context around Quanta/QCT and TSMC."
   },
   {
     "date_utc": "2026-05-31T00:00:00Z",
