@@ -59,14 +59,59 @@ Use recent-date filters where available.
 
 ## Customer / supplier cross-checks
 
-Customers: MSFT, GOOGL, AMZN, META, ORCL, TSLA, xAI, OpenAI-related partners,
-CoreWeave, Dell, Supermicro, HPE, Lenovo.
+Every Jensen/NVIDIA investigation should carry a supply-chain read. Do not stop
+at "NVDA up/down" when the signal implies upstream capacity, midstream
+integration, or downstream customer capex.
 
-Suppliers / ecosystem: TSM, ASML, ARM, AVGO, MRVL, MU, Samsung, SK Hynix,
-SMCI, DELL, HPE, ANET, ETN, VRT, CEG, VST.
+**Downstream customers / demand confirmation**
+- Hyperscalers and labs: MSFT, GOOGL, AMZN, META, ORCL, TSLA, xAI,
+  OpenAI-related partners, CoreWeave.
+- Enterprise / OEM / sovereign-AI buyers: Dell, HPE, Lenovo, government AI
+  factories, telecom/enterprise data-center operators.
 
-Use these only as second-order confirmation. A customer capex statement can
-confirm demand; a supplier capacity comment can confirm bottlenecks.
+**System integrators / AI-server layer**
+- DELL, SMCI, HPE, Lenovo, Foxconn/Hon Hai, Quanta, Wiwynn, Wistron, Inventec,
+  Celestica, Jabil.
+- Watch order books, rack-scale shipments, liquid-cooling readiness, quality
+  issues, and margin pressure.
+
+**Foundry / packaging / equipment**
+- TSM, ASML, AMAT, LRCX, KLAC, Tokyo Electron equivalents when visible.
+- Watch CoWoS/advanced packaging, 3nm/2nm capacity, reticle/wafer constraints,
+  and Taiwan geopolitical risk.
+
+**Memory / HBM**
+- MU, Samsung, SK Hynix.
+- Watch HBM3E/HBM4 qualification, capacity expansion, pricing, yield, and
+  allocation to Blackwell/Rubin.
+
+**Networking / optical / custom silicon**
+- AVGO, MRVL, ANET, COHR, LITE, AAOI, ARM.
+- Watch Spectrum-X, InfiniBand/Ethernet share, optical transceivers, CPO,
+  switching silicon, and custom accelerator spillover.
+
+**Power / cooling / data-center infrastructure**
+- VRT, ETN, CEG, VST, NRG, GEV, Schneider/ABB equivalents where available.
+- Watch AI factory power contracts, grid bottlenecks, liquid cooling, UPS,
+  switchgear, transformers, and nuclear/gas power tie-ins.
+
+Use these as confirmation and mapping. A customer capex statement confirms
+demand; a supplier capacity comment confirms bottlenecks; an integrator shipment
+comment confirms conversion from roadmap to revenue.
+
+## Supply-chain search pack
+
+Pair Jensen/NVIDIA searches with these supply-chain searches:
+
+- `Jensen Huang TSMC CoWoS Blackwell capacity`
+- `NVIDIA Blackwell HBM3E HBM4 SK Hynix Samsung Micron`
+- `NVIDIA GB200 GB300 liquid cooling Vertiv Eaton`
+- `NVIDIA Spectrum-X Broadcom Marvell Arista optical`
+- `NVIDIA AI factory Dell Supermicro HPE Foxconn Quanta`
+- `NVIDIA data center power demand CEG VST ETN VRT`
+- `黄仁勋 台积电 CoWoS Blackwell 产能`
+- `英伟达 HBM SK海力士 三星 美光 Blackwell`
+- `英伟达 AI服务器 鸿海 广达 纬创 纬颖 散热 电力`
 
 ## Source caveats
 
@@ -77,4 +122,3 @@ confirm demand; a supplier capacity comment can confirm bottlenecks.
   official transcript where possible.
 - Conference clips can be miscaptioned or old. Verify date and event.
 - Do not scrape around paywalls or private events. Use public sources.
-

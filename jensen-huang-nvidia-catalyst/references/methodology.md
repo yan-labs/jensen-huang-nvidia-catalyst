@@ -53,6 +53,27 @@ speaker, and context are verified.
 
 ## Market mapping
 
+## Supply-chain overlay - mandatory
+
+For every market-relevant Jensen/NVIDIA item, answer these before producing a
+final read:
+
+1. **What part of the stack changed?** Product roadmap, demand, supply, policy,
+   customer capex, server integration, networking, memory, power, or cooling.
+2. **Where is the bottleneck?** Foundry/CoWoS, HBM, networking/optics, server
+   assembly, power/cooling, export licenses, or customer capex.
+3. **Who confirms it?** Official NVIDIA, customer, supplier, integrator,
+   regulator, trade press, or social lead.
+4. **Who benefits first and second?** NVDA first only when economics accrue to
+   NVIDIA; otherwise map the affected supplier/customer basket.
+5. **What would invalidate it?** Supplier denial, capacity overbuild, export
+   restriction, customer capex cut, integration delay, margin compression, or
+   product slip.
+
+Do not raise confidence above medium unless at least one customer, supplier,
+integrator, policy, or official NVIDIA source corroborates the supply-chain
+implication.
+
 **NVDA primary**
 - Product roadmap, demand, gross-margin implications, export controls, customer
   wins, sovereign AI, software/CUDA moat.
@@ -87,6 +108,7 @@ Add conviction when several stack:
 6. Posted during market hours or just before a major event/earnings.
 7. Connects to a known bottleneck: HBM, CoWoS, networking, power, cooling,
    packaging, export licenses.
+8. Identifies a supply-chain beneficiary or pressure point beyond NVDA.
 
 ## Anti-patterns
 
@@ -98,6 +120,8 @@ Do not over-score:
 - Product hype after the stock has already priced the event.
 - Competitor or supply-chain rumors without primary confirmation.
 - Paywalled headlines that hide the actual quote or context.
+- NVDA-only conclusions that ignore the obvious supply-chain beneficiary,
+  bottleneck, or customer-capex read.
 
 ## Output shape
 
@@ -108,6 +132,7 @@ Signal: <date/time, source, link>
 Summary: <one-line public fact>
 Tier: <1/2/3/4> | Type: <product/demand/supply/policy/customer/etc.>
 Likely movers: <primary assets> | Secondary: <baskets>
+Supply chain: <bottleneck / beneficiary / confirmation source>
 Reliability: <high/medium/low> | Duration: <intraday/1-3d/1-2w/structural>
 Why it may work: <amplifiers>
 Why it may fail: <anti-patterns/invalidation>
@@ -123,4 +148,3 @@ Data caveat: <source/quote/price freshness>
 - A hit means the expected direction showed up in the stated window. Record
   magnitude separately.
 - Preserve misses. They are the guardrail against overfitting Jensen hype.
-

@@ -43,10 +43,14 @@ Jensen signals come from many places, not one canonical feed.
    market basket.
 2. Load `references/source-map.md` to choose source reliability and follow-up
    searches.
-3. Load `references/track-record.md` to weight the signal by observed base rate.
-4. Output timestamp, source, link, signal type, affected assets, likely
+3. Run the supply-chain overlay for every market-relevant signal: upstream
+   foundry/memory/packaging, midstream networking/servers, downstream cloud or
+   sovereign-AI customers, plus power/cooling constraints.
+4. Load `references/track-record.md` to weight the signal by observed base rate.
+5. Output timestamp, source, link, signal type, supply-chain confirmation,
+   affected assets, likely
    direction, reliability, duration, invalidation trigger, and data caveats.
-5. Keep broker/account language separate: public news and public quotes are
+6. Keep broker/account language separate: public news and public quotes are
    market context only, never uSMART account truth or fill confirmation.
 
 ## Navigation
@@ -67,5 +71,6 @@ Jensen signals come from many places, not one canonical feed.
   confirmed Jensen statements.
 - Distinguish product-cycle demand, policy risk, customer capex, and supplier
   capacity. They move different baskets.
+- Do not analyze Jensen/NVIDIA in isolation when a supply-chain read is
+  possible; identify the bottleneck and who benefits or gets pressured.
 - Never place, amend, cancel, or size trades from this skill.
-

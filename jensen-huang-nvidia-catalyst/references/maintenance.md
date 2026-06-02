@@ -13,15 +13,20 @@ deduping sightings, classifying market-relevant signals, and scoring outcomes.
    Events/GTC/On-Demand, YouTube, and SEC EDGAR.
 4. Run recent web/news searches from `source-map.md`, in both English and
    Chinese, for the last 24 hours and last 7 days.
-5. Add new public items to `data/sightings.json` and `data/sightings.csv`,
+5. For every market-relevant Jensen/NVIDIA item, run the supply-chain search
+   pack in `source-map.md` and record at least one upstream, midstream, or
+   downstream confirmation attempt in the notes, even when the result is
+   "not confirmed."
+6. Add new public items to `data/sightings.json` and `data/sightings.csv`,
    deduping by canonical URL first, then by normalized title + date.
-6. Update `data/source_stats.txt`.
-7. Classify each market-relevant item with `methodology.md`.
-8. Append confirmed tradable signals above `TIMER_LEDGER_START` in
+7. Update `data/source_stats.txt`.
+8. Classify each market-relevant item with `methodology.md`, including the
+   mandatory supply-chain overlay.
+9. Append confirmed tradable signals above `TIMER_LEDGER_START` in
    `track-record.md`.
-9. Score matured rows after one trading day and one week where public quote data
+10. Score matured rows after one trading day and one week where public quote data
    is available.
-10. Update calibration takeaways only when measured evidence changes the base
+11. Update calibration takeaways only when measured evidence changes the base
     rate for a pattern.
 
 ## Sightings fields
@@ -75,4 +80,3 @@ Notify only when:
 
 For no-change runs, already-known items, low-quality social leads, or ordinary
 successful checks with no durable update, return heartbeat DONT_NOTIFY XML only.
-

@@ -24,6 +24,8 @@ This repo turns those public signals into a compact catalyst workflow for:
 - Blackwell / Rubin / CUDA / networking / robotics themes;
 - China/export-control and sovereign-AI policy signals;
 - customer capex and supplier capacity clues;
+- paired supply-chain reads across foundry, HBM, packaging, networking, servers,
+  power, cooling, and cloud demand;
 - short-horizon market reaction calibration.
 
 > Not financial advice. Decision-support only. This skill never trades and never
@@ -68,4 +70,3 @@ read or a useful calibration outcome.
 This repository contains public information, public links, and derived analysis.
 It is independent research infrastructure and is not affiliated with, endorsed
 by, or connected to NVIDIA or Jensen Huang.
-
