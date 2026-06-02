@@ -6,10 +6,227 @@
     "title": "NVIDIA GTC 2026 Keynote",
     "summary": "Official replay page for Jensen Huang's GTC keynote covering AI factories, open models, agentic systems, physical AI, and robotics.",
     "signal_type": "event",
-    "primary_assets": ["NVDA"],
-    "secondary_assets": ["AI infrastructure", "robotics", "physical AI"],
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "AI infrastructure",
+      "robotics",
+      "physical AI"
+    ],
     "confidence": "high",
     "notes": "S-tier primary source; use as anchor for June 2026 Computex/GTC Taipei catalyst cluster."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+    "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to Healthy Taiwan",
+    "summary": "NVIDIA and Foxconn announced agentic and physical AI deployments across Taiwan medical centers, including CoDoctor agents and Nurabot robotics under a $1.5B Healthy Taiwan initiative.",
+    "signal_type": "customer/platform",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "Foxconn",
+      "healthcare AI",
+      "robotics",
+      "sovereign AI"
+    ],
+    "confidence": "high",
+    "notes": "Tier 2 customer/sovereign-AI confirmation. Supply-chain overlay: Foxconn as integrator, edge/robotics compute and hospital AI infrastructure demand; confirmation attempt through Foxconn Computex platform release."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+    "title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+    "summary": "NVIDIA said Vera Rubin is ramping into full production as a POD-scale AI-factory platform spanning Vera Rubin NVL72, Vera CPU, BlueField-4 STX storage and Spectrum-6 SPX Ethernet racks.",
+    "signal_type": "capacity",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "DELL",
+      "HPE",
+      "SMCI",
+      "LNVGY",
+      "Foxconn",
+      "QCT",
+      "Wistron",
+      "Wiwynn",
+      "HBM suppliers",
+      "power and cooling"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 demand/capacity signal. Supply-chain overlay: upstream HBM/advanced packaging and TSMC ecosystem, midstream OEM/ODM partners, downstream AI clouds and enterprises, with power/cooling via liquid-cooled MGX and 800 VDC references. Confirmation attempts: Foxconn Computex release, Supermicro Vera Rubin IR release, and TrendForce HBM4 validation coverage."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
+    "title": "NVIDIA Unveils Vera, the CPU for Agents",
+    "summary": "NVIDIA announced Vera as a CPU for AI-agent workloads, with customers including NYSE, Anthropic, OpenAI, SpaceXAI, ByteDance, CoreWeave and OCI and systems from major OEMs/ODMs.",
+    "signal_type": "product",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "ORCL",
+      "CRWV",
+      "DELL",
+      "HPE",
+      "SMCI",
+      "LNVGY",
+      "Foxconn",
+      "QCT",
+      "Wistron",
+      "Wiwynn"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 product/customer signal. Supply-chain overlay: demand confirmed by labs/clouds, manufacturing confirmed by Dell/HPE/Lenovo/Supermicro and Taiwan ODM list; upstream memory/package capacity remains the gating risk."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+    "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+    "summary": "NVIDIA launched Cosmos 3 open physical-AI foundation models for robotics, autonomous vehicles and vision AI, plus a Cosmos Coalition with model and robotics partners.",
+    "signal_type": "software/platform",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "robotics",
+      "autonomous vehicles",
+      "LG Electronics",
+      "Samsung",
+      "CoreWeave",
+      "Microsoft Azure",
+      "Nebius"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 physical-AI platform signal. Supply-chain overlay: downstream robotics/AV/vision demand; confirmation attempt through NVIDIA GTC Taipei physical-AI releases and DRIVE/GR00T items in the same official source cluster."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
+    "title": "NVIDIA Launches Alpamayo 2 Super Open Reasoning Model for Robotaxis",
+    "summary": "NVIDIA introduced Alpamayo 2 Super, AlpaGym and OmniDreams for reasoning-based level 4 autonomous-vehicle development and closed-loop simulation.",
+    "signal_type": "autonomous vehicles",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "autonomous vehicles",
+      "robotaxi stack",
+      "Omniverse"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 AV/physical-AI product signal. Supply-chain overlay: downstream AV developers and simulation workloads; confirmation attempt through DRIVE Hyperion ecosystem release."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world",
+    "title": "NVIDIA DRIVE Hyperion Becomes the Global Platform for a Robotaxi-Ready World",
+    "summary": "NVIDIA expanded DRIVE Hyperion level 4 robotaxi ecosystem with Foxconn, VinFast/Autobrains, Uber and HUMAIN deployments across Taiwan, Southeast Asia, Europe and the Middle East.",
+    "signal_type": "customer/platform",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "UBER",
+      "Foxconn",
+      "VinFast",
+      "HUMAIN",
+      "autonomous vehicles"
+    ],
+    "confidence": "high",
+    "notes": "Tier 2 customer/platform confirmation. Supply-chain overlay: in-vehicle compute, sensors, EV manufacturing and mobility-network demand; confirmation attempt through Foxconn Computex and Healthy Taiwan physical-AI partner releases."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-dgx-station-for-windows-puts-a-trillion-parameter-ai-supercomputer-on-every-enterprise-desk",
+    "title": "NVIDIA DGX Station for Windows Puts a Trillion-Parameter AI Supercomputer on Every Enterprise Desk",
+    "summary": "NVIDIA announced DGX Station for Windows, built on the GB300 Grace Blackwell Ultra Desktop Superchip, to bring frontier AI-agent infrastructure into Windows enterprise workflows.",
+    "signal_type": "product/customer",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "MSFT",
+      "GB300 ecosystem",
+      "ConnectX",
+      "enterprise workstations"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 product/customer signal. Supply-chain overlay: GB300 desktop superchip demand, Windows enterprise channel, high-memory workstation component needs; confirmation attempt via official Microsoft/RTX Spark cluster and Computex trade coverage."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
+    "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+    "summary": "NVIDIA announced an open humanoid robot reference design using Jetson Thor, Isaac GR00T software and a Unitree H2 Plus platform for research institutions.",
+    "signal_type": "robotics",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "Jetson Thor",
+      "Unitree",
+      "robotics research",
+      "physical AI"
+    ],
+    "confidence": "high",
+    "notes": "Tier 1 physical-AI product signal. Supply-chain overlay: edge compute and robot component demand, downstream research/developer adoption; confirmation attempt through Cosmos 3 and Foxconn healthcare/robotics official items."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
+    "title": "Enterprise Software Leaders Build AI Agents With NVIDIA",
+    "summary": "NVIDIA announced Agent Toolkit/NemoClaw, Nemotron 3 Ultra, OpenShell and CUDA-X agent skills with adoption by design, simulation, cybersecurity and enterprise-software partners.",
+    "signal_type": "software/customer",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "CDNS",
+      "DSY",
+      "SIEGY",
+      "SNPS",
+      "CRWD",
+      "PLTR",
+      "MSFT",
+      "SAP",
+      "NOW",
+      "RHT"
+    ],
+    "confidence": "high",
+    "notes": "Tier 2 downstream software/customer confirmation. Supply-chain overlay: strengthens enterprise agent demand rather than hardware capacity; confirmation attempt through named CAD/security/software partners and DGX/RTX local-agent hardware cluster."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+    "title": "NVIDIA GTC Taipei at COMPUTEX Live Updates on What Is Next in AI",
+    "summary": "NVIDIA's GTC Taipei live blog highlighted Vera Rubin full production, 800 VDC/MGX power architecture, liquid-cooled rack design, Spectrum-X Ethernet Photonics production and Taiwan supply-chain scale.",
+    "signal_type": "supply-chain",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "AI factory suppliers",
+      "power and cooling",
+      "networking",
+      "Taiwan ODMs"
+    ],
+    "confidence": "high",
+    "notes": "Mandatory supply-chain overlay source. Confirms upstream-to-downstream AI factory stack, 150 Taiwan partners, 350+ factories and 30 countries, plus power/cooling constraints via MGX/800 VDC/liquid cooling."
   },
   {
     "date_utc": "2026-05-31T00:00:00Z",
@@ -18,8 +235,17 @@
     "title": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
     "summary": "NVIDIA and Microsoft announced RTX Spark Windows PCs for personal AI agents, with Jensen Huang framing RTX Spark as the new personal AI computer.",
     "signal_type": "product",
-    "primary_assets": ["NVDA"],
-    "secondary_assets": ["MSFT", "ARM", "DELL", "HPQ", "MediaTek", "Windows PC OEMs"],
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "MSFT",
+      "ARM",
+      "DELL",
+      "HPQ",
+      "MediaTek",
+      "Windows PC OEMs"
+    ],
     "confidence": "high",
     "notes": "Primary-source product/customer signal; market read is NVDA AI-PC narrative plus Windows/OEM ecosystem attention."
   }

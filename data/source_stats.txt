@@ -1,6 +1,7 @@
-Total sightings: 2
-Market-relevant sightings: 2
+Total sightings: 12
+Market-relevant sightings: 12
 
 source  count  last_seen
+NVIDIA Newsroom  10  2026-06-01T00:00:00Z
+NVIDIA Blog  1  2026-06-01T00:00:00Z
 NVIDIA GTC  1  2026-06-01T01:00:00Z
-NVIDIA Newsroom  1  2026-05-31T00:00:00Z
