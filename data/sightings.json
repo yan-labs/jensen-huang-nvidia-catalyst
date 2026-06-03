@@ -489,5 +489,37 @@
     ],
     "confidence": "medium",
     "notes": "Specialist supply-chain confirmation for HBM4 validation and multi-supplier risk reduction. Supports existing Rubin capacity rows; not a new Jensen statement. Watch whether validation completion, allocation and pricing are later confirmed by supplier filings or earnings calls."
+  },
+  {
+    "date_utc": "2025-10-28T00:00:00Z",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america",
+    "title": "NVIDIA and Partners Build America's AI Infrastructure",
+    "summary": "Official NVIDIA GTC Washington source mapped U.S. AI infrastructure buildout across DOE systems Solstice and Equinox, Los Alamos Vera Rubin, Virginia AI Factory Research Center, CoreWeave Federal, Global AI, Akamai, Crusoe, Lambda, xAI, Digital Realty, U.S. Blackwell wafer production, and power/cooling/networking partners.",
+    "signal_type": "customer/capacity",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "ORCL",
+      "CRWV",
+      "AKAM",
+      "DELL",
+      "VRT",
+      "ETN",
+      "NOK",
+      "TSM",
+      "Foxconn",
+      "Wistron",
+      "Amkor",
+      "SPIL",
+      "Digital Realty",
+      "Lambda",
+      "Crusoe",
+      "xAI",
+      "DOE AI systems"
+    ],
+    "confidence": "high",
+    "notes": "Historical official source found during the June 3 refresh, not a fresh June 2026 catalyst. Supply-chain overlay: downstream U.S. government, federal cloud and private AI-factory demand; midstream Dell/server and data-center operators; upstream TSMC Arizona wafer production and advanced packaging; power/cooling via Schneider, Vertiv and Eaton; networking via Cisco, Lumen, Nokia and T-Mobile. Used as confirmation context for existing AI-factory and DSX rows, not a standalone market-ledger signal."
   }
 ]
