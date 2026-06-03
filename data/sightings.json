@@ -396,5 +396,98 @@
     ],
     "confidence": "high",
     "notes": "Tier 1 AI-factory infrastructure/supply-chain signal. Supply-chain overlay: downstream cloud partners CoreWeave/Crusoe/Firmus/IREN/Lambda/Nebius/Nscale/Yotta; midstream Dell/HPE/Lenovo/Supermicro and Taiwan ODMs; facilities/power/cooling via DSX OS, DSX Sim, DSX Flex and DSX Exchange. Confirmation attempt: NVIDIA DSX product page and GTC Taipei MGX/800 VDC live-blog section."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "CTIMES",
+    "url": "https://www.ctimes.com.tw/DispArt/tw/Computex/AI%E5%B7%A5%E5%BB%A0/CPU/GPU/2606011513BS.shtml",
+    "title": "CTIMES: Jensen Huang details GB300 upgrade and Taiwan AI supercomputer plan",
+    "summary": "CTIMES reported Jensen Huang's GTC Taipei remarks on GB300, NVLink Fusion, Taiwan's first flagship AI supercomputer, NVIDIA Constellation in Taipei, and Taiwan physical-AI/robotics supply-chain partners.",
+    "signal_type": "supplier/customer",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "TSM",
+      "Foxconn",
+      "MediaTek",
+      "QCOM",
+      "Alchip",
+      "Delta",
+      "Quanta",
+      "Wistron",
+      "Pegatron",
+      "GIGABYTE"
+    ],
+    "confidence": "medium",
+    "notes": "Chinese trade-press confirmation for the GTC Taipei release cluster. Supply-chain overlay: TSMC advanced process, Foxconn system integration, NSTC/Taiwan AI supercomputer demand, Taiwan ODM/factory automation partners, and NVLink Fusion ecosystem names. Corroborates existing official NVIDIA GTC rows; not a standalone ledger signal."
+  },
+  {
+    "date_utc": "2026-06-01T00:00:00Z",
+    "source": "IEK / Commercial Times",
+    "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?nsl_id=10426c9aacb147dfa9ad84da86ab0676",
+    "title": "IEK/Commercial Times: GTC Taipei supply chain positioned for Rubin and GB300",
+    "summary": "IEK republished Commercial Times reporting that Taiwan AI server, PC and advanced-manufacturing suppliers were preparing for Rubin, GB300 and AI Factory expansion, with Korean HBM partners also in focus.",
+    "signal_type": "supply",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "TSM",
+      "Foxconn",
+      "Quanta",
+      "Wistron",
+      "Wiwynn",
+      "Inventec",
+      "GIGABYTE",
+      "ASUS",
+      "MediaTek",
+      "Samsung",
+      "SK Hynix"
+    ],
+    "confidence": "medium",
+    "notes": "Supply-chain confirmation attempt for existing Rubin/AI-factory rows. Report names Taiwan system makers, expected Q3/Q4 platform transition timing, Q1 rack-scale AI-server deliveries, GB300 order benefits, and Samsung/SK Hynix HBM partner engagement. Trade-press source, so keep below official-source confidence."
+  },
+  {
+    "date_utc": "2026-03-17T02:00:00Z",
+    "source": "Micron IR",
+    "url": "https://investors.micron.com/news-releases/news-release-details/meiguangzhuanwei-nvidia-vera-rubin-dazaode-hbm4",
+    "title": "Micron says HBM4 for NVIDIA Vera Rubin is in high-volume production",
+    "summary": "Micron announced 12-high 36GB HBM4 for NVIDIA Vera Rubin entered high-volume production, alongside PCIe 6.0 SSDs and SOCAMM2 memory for Vera Rubin systems.",
+    "signal_type": "memory/supply",
+    "primary_assets": [
+      "MU"
+    ],
+    "secondary_assets": [
+      "NVDA",
+      "Vera Rubin",
+      "HBM4",
+      "SOCAMM2",
+      "PCIe 6.0 SSD",
+      "BlueField-4"
+    ],
+    "confidence": "high",
+    "notes": "Supplier primary-source confirmation for the Vera Rubin memory/storage stack. Supply-chain overlay: HBM4 bandwidth and power efficiency, SOCAMM2 memory capacity, PCIe 6.0 storage and liquid-cooling optimized data-center SSDs. Corroborates Rubin production rows and supports MU as a named memory beneficiary."
+  },
+  {
+    "date_utc": "2026-02-13T00:00:00Z",
+    "source": "TrendForce",
+    "url": "https://www.trendforce.com/presscenter/news/20260213-12929.html",
+    "title": "TrendForce: HBM4 validation expected in 2Q26 for NVIDIA Rubin supply chain",
+    "summary": "TrendForce said Samsung, SK hynix and Micron were in final HBM4 validation for NVIDIA Rubin, with NVIDIA expected to use all three suppliers because no single supplier can satisfy ramp needs.",
+    "signal_type": "memory/supply",
+    "primary_assets": [
+      "NVDA"
+    ],
+    "secondary_assets": [
+      "Samsung",
+      "SK Hynix",
+      "MU",
+      "HBM4",
+      "Rubin",
+      "DRAM"
+    ],
+    "confidence": "medium",
+    "notes": "Specialist supply-chain confirmation for HBM4 validation and multi-supplier risk reduction. Supports existing Rubin capacity rows; not a new Jensen statement. Watch whether validation completion, allocation and pricing are later confirmed by supplier filings or earnings calls."
   }
 ]
